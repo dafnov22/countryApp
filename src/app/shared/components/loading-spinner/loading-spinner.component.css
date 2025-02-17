@@ -1,0 +1,16 @@
+.spinner-container {
+  align-items: center; /* centrar verticalmente */
+  background-color:black; /* color de fondo */
+  border-radius: 20px; /* borde redondeado */
+  bottom: 15px; /* distancia del borde inferior de la pantalla */
+  color: white; /* color del texto */
+  display: flex; /* flexbox */
+  padding: 5px 10px; /* relleno arriba y abajo de 5 pixeles; izq y der de 10 pixeles*/
+  position: fixed; /* fijar la posición */
+  right: 15px; /* distancia del borde derecho de la pantalla */
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2); /* sombra */
+}
+
+span {
+  margin-left: 5px; /* margen a la izquierda de 5 pixeles */
+}
